@@ -1,0 +1,115 @@
+919  git
+  920  pwd
+  921  cd Desktop/
+  922  ls
+  923  mkdir porject
+  924  mv porject project
+  925  ls
+  926  cd project/
+  927  ls
+  928  git init
+  929  ls -a
+  930  ls .git
+  931  touch names.txt
+  932  git status
+  933  git add names.txt
+  934  git status
+  935  git commit -m "names.txt files added"
+  936  git status
+  937  vim names.txt 
+  938  cat names.txt 
+  939  git status
+  940  git add .
+  941  git status
+  942  git restore --staged names.txt 
+  943  git status
+  944  git add .
+  945  git status
+  946  git commit -m "names.txt file modified"
+  947  git log
+  948  rm -rf names.txt
+  949  git status
+  950  git add .
+  951  git status
+  952  git commit -m "names.txt file deleted"
+  953  git log
+  954  git reset 0f6679f9080b9c9cc1bdcf486f7c1f9b8d500c61
+  955  git lgo
+  956  git log
+  957  git status
+  958  git add .
+  959  git status
+  960  touch surnames.txt
+  961  git add .
+  962  git status
+  963  vim surnames.txt 
+  964  touch houses.txt
+  965  git add .
+  966  git status
+  967  git stash
+  968  git status
+  969  cat names.txt 
+  970  git stash pop
+  971  git status
+  972  git add .
+  973  git status
+  974  git stash clear
+  975  git stash
+  976  git stash clear
+  977  git status
+  978  git remote add origin https://github.com/Amit-unchartered/Amit-Agrawal-git.git
+  979  git remote -v
+  980  git push origin main
+  981  git push origin master
+  982  touch hotel.txt
+  983  git add .
+  984  dit commit -m "hotel.txt added"
+  985  git commit -m "hotel.txt added"
+  986  touch rollno.txt
+  987  git add .
+  988  git commit -m "rollno.txt added"
+  989  vi rollno.txt 
+  990  git status
+  991  git add .
+  992  git status
+  993  git commit -m "rollno.txt modified"
+  994  git log
+  995  git checkout main
+  996  git push origin master
+  997  git clone https://github.com/Amit-unchartered/commclassroomOP.git
+  998  cd
+  999  cd Desktop/
+ 1000  ls
+ 1001  cd commclassroomOP/
+ 1002  git remote add upstream https://github.com/kunal-kushwaha/commclassroomOP.git
+ 1003  git remote -v
+ 1004  vi README.md 
+ 1005  cat README.md 
+ 1006  git status
+ 1007  git branch amit
+ 1008  git checkout amit
+ 1009  git add .
+ 1010  git commit -m "amit added a message"
+ 1011  git log
+ 1012  git push origin amit
+ 1013  git status
+ 1014  touch names.txt
+ 1015  git add .
+ 1016  git commit -m "names.txt added"
+ 1017  git status
+ 1018  git push origin amit
+ 1019  git log
+ 1020  git reset cd08e7b35460e78378f4a8b9f2e497ecfe63a116
+ 1021  git status
+ 1022  git add .
+ 1023  git stash
+ 1024  git push origin amit -f
+ 1025  git checkout main
+ 1026  git log
+ 1027  git fetch --all --prune
+ 1028  git reset --hard upstream/main
+ 1029  git log
+ 1030  git push origin main
+ 1031  clear
+ 1032  history
+
